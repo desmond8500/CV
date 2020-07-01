@@ -17,3 +17,28 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+
+
+
+
+
+
+
+
+Route::resource('taches', 'tachesAPIController');
+
+
+
+
+
+Route::resource('skills', 'SkillsAPIController');
+
+Route::resource('interets', 'InteretAPIController');
+
+Route::resource('formations', 'FormationAPIController');
+
+Route::resource('competences', 'CompetenceAPIController');
+
+Route::resource('etat__civils', 'Etat_CivilAPIController');
