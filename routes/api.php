@@ -42,3 +42,7 @@ Route::resource('formations', 'FormationAPIController');
 Route::resource('competences', 'CompetenceAPIController');
 
 Route::resource('etat__civils', 'Etat_CivilAPIController');
+
+Route::resource('langues', 'LangueAPIController');
+
+Route::resource('exptasks', 'ExptaskAPIController');

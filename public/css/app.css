@@ -10945,3 +10945,7 @@ a.text-dark:focus {
   text-align: right;
 }
 
+.title {
+  border-bottom: 1px solid black;
+}
+

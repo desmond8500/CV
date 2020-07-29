@@ -2,23 +2,24 @@
 
 namespace App\Repositories;
 
-use App\Models\Tache;
+use App\Models\Langue;
 use App\Repositories\BaseRepository;
 
 /**
- * Class TacheRepository
+ * Class LangueRepository
  * @package App\Repositories
- * @version July 1, 2020, 5:37 pm UTC
+ * @version July 1, 2020, 3:41 pm UTC
 */
 
-class TacheRepository extends BaseRepository
+class LangueRepository extends BaseRepository
 {
     /**
      * @var array
      */
     protected $fieldSearchable = [
-        'skill_id',
-        'name'
+        'name',
+        'level',
+        'etat_civil_id'
     ];
 
     /**
@@ -36,6 +37,6 @@ class TacheRepository extends BaseRepository
      **/
     public function model()
     {
-        return Tache::class;
+        return Langue::class;
     }
 }

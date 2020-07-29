@@ -6,18 +6,18 @@ use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
- * Class Tache
+ * Class Exptask
  * @package App\Models
- * @version July 1, 2020, 5:37 pm UTC
+ * @version July 1, 2020, 5:44 pm UTC
  *
- * @property string $skill_id
+ * @property string $exp_id
  * @property string $name
  */
-class Tache extends Model
+class Exptask extends Model
 {
     use SoftDeletes;
 
-    public $table = 'taches';
+    public $table = 'exptasks';
     
 
     protected $dates = ['deleted_at'];
@@ -25,7 +25,7 @@ class Tache extends Model
 
 
     public $fillable = [
-        'skill_id',
+        'exp_id',
         'name'
     ];
 
@@ -36,7 +36,7 @@ class Tache extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'skill_id' => 'string',
+        'exp_id' => 'string',
         'name' => 'string'
     ];
 

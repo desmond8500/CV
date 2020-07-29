@@ -1,0 +1,205 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table{
+    width: 100%;
+}
+
+.profil{
+    background: #1B2B66;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.civil{
+    color: white;
+    text-align: right;
+}
+
+.name{
+    color: white;
+    font-size: 30px;
+}
+
+.function{
+    font-size: 20px;
+}
+
+.description{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.title{
+    color: #1B2B66;
+    border-bottom: 1px solid black;
+}
+
+.titre2{
+    font-weight: bold;
+}
+
+.titre3{
+    font-style: italic;
+    font-size: 13px;
+}
+
+.lieu{
+    font-size: 13px;
+}
+
+.tr{
+    border-bottom: 3px solid grey;
+
+}
+
+/* text */
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-underline{
+    text-decoration: underline;
+}
+
+/* Margin  */
+
+.ml-1{
+ margin-left: 5px;
+}
+.ml-2{
+ margin-left: 10px;
+}
+.ml-3{
+ margin-left: 15px;
+}
+.ml-4{
+ margin-left: 20px;
+}
+.ml-5{
+ margin-left: 55px;
+}
+.mr-1{
+ margin-right: 5px;
+}
+.mr-2{
+ margin-right: 10px;
+}
+.mr-3{
+ margin-right: 15px;
+}
+.mr-4{
+ margin-right: 20px;
+}
+.mr-5{
+ margin-right: 55px;
+}
+.mt-1{
+ margin-top: 5px;
+}
+.mt-2{
+ margin-top: 10px;
+}
+.mt-3{
+ margin-top: 15px;
+}
+.mt-4{
+ margin-top: 20px;
+}
+.mt-5{
+ margin-top: 55px;
+}
+.mb-1{
+ margin-bottom: 5px;
+}
+.mb-2{
+ margin-bottom: 10px;
+}
+.mb-3{
+ margin-bottom: 15px;
+}
+.mb-4{
+ margin-bottom: 20px;
+}
+.mb-5{
+ margin-bottom: 55px;
+}
+
+/* Padding  */
+
+.pl-1{
+ padding-left: 5px;
+}
+.pl-2{
+ padding-left: 10px;
+}
+.pl-3{
+ padding-left: 15px;
+}
+.pl-4{
+ padding-left: 20px;
+}
+.pl-5{
+ padding-left: 55px;
+}
+.pr-1{
+ padding-right: 5px;
+}
+.pr-2{
+ padding-right: 10px;
+}
+.pr-3{
+ padding-right: 15px;
+}
+.pr-4{
+ padding-right: 20px;
+}
+.pr-5{
+ padding-right: 55px;
+}
+.pt-1{
+ padding-top: 5px;
+}
+.pt-2{
+ padding-top: 10px;
+}
+.pt-3{
+ padding-top: 15px;
+}
+.pt-4{
+ padding-top: 20px;
+}
+.pt-5{
+ padding-top: 55px;
+}
+.pb-1{
+ padding-bottom: 5px;
+}
+.pb-2{
+ padding-bottom: 10px;
+}
+.pb-3{
+ padding-bottom: 15px;
+}
+.pb-4{
+ padding-bottom: 20px;
+}
+.pb-5{
+ padding-bottom: 55px;
+}

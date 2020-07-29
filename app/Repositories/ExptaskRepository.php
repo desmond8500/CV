@@ -2,22 +2,22 @@
 
 namespace App\Repositories;
 
-use App\Models\Tache;
+use App\Models\Exptask;
 use App\Repositories\BaseRepository;
 
 /**
- * Class TacheRepository
+ * Class ExptaskRepository
  * @package App\Repositories
- * @version July 1, 2020, 5:37 pm UTC
+ * @version July 1, 2020, 5:44 pm UTC
 */
 
-class TacheRepository extends BaseRepository
+class ExptaskRepository extends BaseRepository
 {
     /**
      * @var array
      */
     protected $fieldSearchable = [
-        'skill_id',
+        'exp_id',
         'name'
     ];
 
@@ -36,6 +36,6 @@ class TacheRepository extends BaseRepository
      **/
     public function model()
     {
-        return Tache::class;
+        return Exptask::class;
     }
 }

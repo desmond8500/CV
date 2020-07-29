@@ -9,6 +9,7 @@ Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->middleware('verified')->name('home');
 Route::get('/cv', 'cvController@index')->name('cv');
+Route::get('/pdf', 'cvController@export_cv_to_pdf')->name('cv_to_pdf');
 
 
 Route::get('generator_builder', '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@builder')->name('io_generator_builder');
@@ -42,3 +43,8 @@ Route::resource('formations', 'FormationController');
 Route::resource('competences', 'CompetenceController');
 
 Route::resource('etatCivils', 'Etat_CivilController');
+
+Route::resource('langues', 'LangueController');
+
+
+Route::resource('exptasks', 'ExptaskController');
